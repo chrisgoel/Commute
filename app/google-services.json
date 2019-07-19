@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "216577997606",
+    "firebase_url": "https://commute-1549081676542.firebaseio.com",
+    "project_id": "commute-1549081676542",
+    "storage_bucket": "commute-1549081676542.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216577997606:android:c4c2b73196c5aa9a",
+        "android_client_info": {
+          "package_name": "com.torontomans.commute"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216577997606-ahqglrb28evbtsm21n6qo3d157dnqupa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUEW9hOzq8fVEmKnZ1INuzXfBWGQFfqHc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216577997606-ahqglrb28evbtsm21n6qo3d157dnqupa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

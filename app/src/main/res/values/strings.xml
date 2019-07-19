@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Commute</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">SIGN IN</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_location_find">LocationFind</string>
+    <string name="sign_up_question">No Commute account?</string>
+    <string name="sign_up_button">Sign up</string>
+    <string name="submit">Submit</string>
+    <string name="reprompt_password">Password (confirm)</string>
+    <string name="go_button">Go</string>
+    <string name="cancel_button">Cancel</string>
+    <string name="score">SCORE</string>
+    <string name="points">POINTS</string>
+    <string name="todo">TODO</string>
+    <string name="scene_points">Points</string>
+    <string name="scene_points_value">420</string>
+    <string name="username">Christopher Goel</string>
+</resources>
