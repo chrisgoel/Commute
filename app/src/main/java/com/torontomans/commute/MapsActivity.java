@@ -70,53 +70,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     Button sendInfo;
     String name;
 
-//    private class JSONThread implements Runnable {
-//        JsonStore json;
-//        URL url;
-//
-//        public JSONThread(URL url) {
-//            this.url = url;
-//        }
-//
-//
-//        public void run() {
-//            this.json = null;
-//            ObjectMapper objectMapper = new ObjectMapper();
-//            try {
-//                System.out.println("Thread test");
-//                json = objectMapper.readValue(url, JsonStore.class);
-//            } catch(Exception e) {
-//                e.printStackTrace();
-//            }
-//        }
-//
-//        public JsonStore getJsonValue() {
-//            return this.json;
-//        }
-//    }
-//
-//    private class DownloadFilesTask extends AsyncTask<URL, Integer, Long> {
-//        protected Long doInBackground(URL... urls) {
-//            int count = urls.length;
-//            long totalSize = 0;
-//            for (int i = 0; i < count; i++) {
-//                totalSize += Downloader.downloadFile(urls[i]);
-//                publishProgress((int) ((i / (float) count) * 100));
-//                // Escape early if cancel() is called
-//                if (isCancelled()) break;
-//            }
-//            return totalSize;
-//        }
-//
-//        protected void onProgressUpdate(Integer... progress) {
-//            setProgressPercent(progress[0]);
-//        }
-//
-//        protected void onPostExecute(Long result) {
-//            showDialog("Downloaded " + result + " bytes");
-//        }
-//    }
-
     class MyAsyncTask extends AsyncTask<String, Integer, JSONObject> {
         private JSONObject jsonObject;
 
@@ -263,7 +216,6 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 }
             }
         });
-        System.out.println("email (after intent): " + name);
         setTitle("Hello " + name + "!");
         mFusedLocationClient = LocationServices.getFusedLocationProviderClient(this);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
